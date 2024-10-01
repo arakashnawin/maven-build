@@ -22,9 +22,9 @@ chown -RH wildfly: /opt/wildfly
 
 rm wildfly-25.0.1.Final.tar.gz
 
-echo "*******************************************
+echo "******************************************"
 echo "Step 4: Create Wildfly Application user --"
-echo "*******************************************
+echo "******************************************"
 
 /opt/wildfly/bin/add-user.sh admin admin
 
